@@ -1,3 +1,15 @@
+/**
+* @ProgramName: Program-1
+* @Author: Revathi chikoti  
+* @Description: 
+*     This program displays coutries, recognizes mouse click and a thick border appers with rectangle
+       over borders of country and displays counytry name.
+* @Course: 4553 spatial data structures
+* @Semester: Summer-1 2017
+* @Date: 06-14-2017
+*/
+
+
 import json
 import os,sys
 import pygame
