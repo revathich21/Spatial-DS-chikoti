@@ -1,3 +1,4 @@
+```py
 /**
 * @ProgramName: Program-1
 * @Author: Revathi chikoti  
@@ -555,3 +556,4 @@ if __name__ == '__main__':
 
 
             pygame.display.flip()
+```
