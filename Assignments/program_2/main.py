@@ -1,4 +1,3 @@
-
 """
 Program:
 --------
@@ -31,9 +30,17 @@ black = (0,0,0)
 (width, height) = (1000,1000)
 
 screen = pygame.display.set_mode((width, height))   
-pygame.display.set_caption('Simple Line')           #to dispaly title on screen
+pygame.display.set_caption('program2')           #to dispaly title on screen
 screen.fill(background_colour)
-
+black = (0,0,0)
+pygame.init()
+myfont = pygame.font.SysFont('Comic Sans MS', 30)
+textsurface = myfont.render('program2', False, (0, 0, 0))
+screen.blit(textsurface,(100,50))
+myfont = pygame.font.SysFont('Comic Sans MS', 30)
+textsurface = myfont.render('revathi chikoti', False, (0, 0, 0))
+screen.blit(textsurface,(100,100))
+            
     #pygame.display.flip()
  
 epsilon = 20
@@ -108,9 +115,13 @@ def cordinates(path):
     list_a = list(zip(list_z, list_w))
     points.extend(list_a)
     return points
-    
-    
+
+                
+        
+                        
 if __name__ == '__main__':
+
+
 
     points0 = []
     points1 = [] 
@@ -123,6 +134,7 @@ if __name__ == '__main__':
     points2 = cordinates(DIRPATH+'/../NYPD_CrimeData/filtered_crimes_manhattan.csv')
     points3 = cordinates(DIRPATH+'/../NYPD_CrimeData/filtered_crimes_queens.csv')
     points4 = cordinates(DIRPATH+'/../NYPD_CrimeData/filtered_crimes_staten_island.csv')
+
 
     running = True
     while running:
@@ -137,6 +149,7 @@ if __name__ == '__main__':
         for p4 in points4:
             pygame.draw.circle(screen, (253,182,50), p4, 3, 0) #island
         
+        pygame.image.save(screen , "crime1.png")
         pygame.display.flip()
     
    
