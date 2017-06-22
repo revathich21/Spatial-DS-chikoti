@@ -1,3 +1,14 @@
+'''py
+"""
+Program:
+--------
+    Program 3
+Description:
+------------
+    This programe takes a json file to plot EarthQuake Data with mangitude of 7 and above.    
+Name: revathi chikoti
+Date: 22 june 2017
+"""
 import pygame
 import sys,os
 import json
@@ -45,3 +56,4 @@ if __name__=='__main__':
         pygame.display.flip()
         
         pygame.time.wait(10)
+'''
