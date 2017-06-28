@@ -1,0 +1,3 @@
+1.find the airports in a distance of 200 miles from the place where earthquake occured at the magnitude of 7.5
+2.find first three countries with highest volcanoes.
+3.find name of countries which had same type of volcanoes.
