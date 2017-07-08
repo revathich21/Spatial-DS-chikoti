@@ -1,4 +1,14 @@
-
+"""
+Program:
+--------
+    Program 2 
+Description:
+------------
+     generates heat map based on cities attacks count.
+    
+Name: revathi chikoti, saikiran valliyil
+Date:07 july 2017
+"""
 
 
 import pprint as pp
